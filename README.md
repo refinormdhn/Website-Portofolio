@@ -1,8 +1,8 @@
 # Website Portofolio - Muhammad Refino Ramadhan
 
-Ini adalah repositori untuk website portofolio pribadi saya, **Muhammad Refino Ramadhan (NIM: 18223070)**. Proyek ini dikembangkan sebagai tugas untuk mata kuliah **Pengembangan Aplikasi Web dan Mobile** di Institut Teknologi Bandung.
+Ini adalah repositori untuk website portofolio pribadi saya, **Muhammad Refino Ramadhan (NIM: 18223070)**. Proyek ini dikembangkan sebagai tugas untuk mata kuliah **II3140 Pengembangan Aplikasi Web dan Mobile**
 
-Website ini sepenuhnya dibangun dari dasar menggunakan **HTML5** dan **CSS3** untuk menampilkan profil, keahlian, dan proyek-proyek yang pernah saya kerjakan dalam format yang bersih dan modern.
+Website ini sepenuhnya dibangun dari dasar menggunakan **HTML** dan **CSS** untuk menampilkan profil, keahlian, dan proyek-proyek yang pernah saya kerjakan dalam format yang bersih dan modern.
 
 ## 🚀 Pratinjau Langsung (Live Preview)
 
