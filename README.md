@@ -8,7 +8,7 @@ Website ini sepenuhnya dibangun dari dasar menggunakan **HTML** dan **CSS** untu
 
 Anda bisa melihat hasil akhirnya di sini:
 
-refino-ramadhan.vercel.app
+https://refino-ramadhan.vercel.app
 
 <img width="1440" height="848" alt="Screenshot 2025-10-01 at 19 12 32" src="https://github.com/user-attachments/assets/c1f1a557-0420-4279-bd6e-59651f2cfc08" />
 
