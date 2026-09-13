@@ -1,165 +1,155 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Refino</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Portfolio of Muhammad Refino Ramadhan, an Information Systems and Technology student exploring product, data, and human-centered software.">
+    <title>Muhammad Refino Ramadhan | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-    <header>
-        <nav>
-            <div class="logo">Portofolio Refino</div>
+<body data-page="home">
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Primary navigation">
+            <a class="brand" href="#home" aria-label="Go to home">Refino Ramadhan</a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#Profile">Profile</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#story">Story</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <div class="hero-container">
-                <div class="hero-text">
-                    <h1>Muhammad Refino Ramadhan</h1>
-                    <p class="subtitle">Information Systems and Technology Student</p>
-                    <p>Welcome to my portofolio website! Here you can find my projects and contacts.</p>
-                    <div class="social-icons">
-                        <a href="https://linkedin.com/in/refinormdn" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://instagram.com/refinormdn" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://github.com/refinormdhn" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="mailto:refinormdn@gmail.com"><i class="fas fa-envelope"></i></a>
-                        <a href="https://wa.me/6287730102005" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://line.me/ti/p/~refino3010" target="_blank"><i class="fab fa-line"></i></a>
-                    </div>
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow">Information Systems and Technology Student</p>
+                <h1>Muhammad Refino Ramadhan</h1>
+                <p class="hero-lead">
+                    I build across product, data, design, and software. This portfolio is a compact archive
+                    of the projects that shaped how I think and create.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#projects">
+                        <i class="fa-solid fa-folder-open" aria-hidden="true"></i>
+                        View Projects
+                    </a>
+                    <a class="button secondary" href="mailto:refinormdn@gmail.com">
+                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                        Contact Me
+                    </a>
                 </div>
-                <div class="hero-image">
-                    <img src="images/profil.JPG" alt="Foto Profil">
-                </div>
             </div>
-        </section>
-
-        <section id="about">
-            <div class="card">
-                <h2>About</h2>
-                <p>
-                    Hello! I'm <strong>Muhammad Refino Ramadhan</strong>, an Information Systems and Technology student at the <strong>Bandung Institute of Technology (ITB)</strong>. My journey in technology began with the belief that data and code hold the power to create meaningful solutions and drive positive change.
-                </p>
-
-                <p>
-                    As an aspiring data practitioner, I have experience with various tools and programming languages such as <strong>Python, Haskell, SQL, Java, HTML, and CSS</strong>. My active involvement in academic projects and student organizations has also honed my skills in teamwork and critical thinking to solve complex problems.
-                </p>
-
-                <p>
-                    What drives me most is the process of transforming raw data into actionable insights. I regularly use tools like <strong>VS Code, Jupyter Notebook, Git</strong> to ensure my work is structured, clean, and collaborative.
-                </p>
-
-                <p>
-                    Looking toward the future, I am passionate about pursuing a career in <strong>Data Science and Data Analysis</strong>. I am currently deepening my knowledge in machine learning and data visualization, aspiring to contribute to smarter, data-driven decision-making. This portfolio showcases my journey of continuous learning, and I am always eager to take on new challenges in this ever-evolving field.
-                </p>
-            </div>
-        </section>
-
-        <section id="Profile">
-            <div class="card">
-                <h2>Profile</h2>
-                <ul>
-                    <li><strong>Name:</strong> Muhammad Refino Ramadhan</li>
-                    <li><strong>Major:</strong> Information Systems and Technology</li>
-                    <li><strong>Student ID:</strong> 18223070</li>
-                    <li><strong>Class:</strong> K-2</li>
-                    <li><strong>Date of Birth:</strong> 30 October 2005</li>
-                    <li><strong>Age:</strong> 19 Years Old</li>
-                    <li><strong>University:</strong> Bandung Institute of Technology</li>
-                    <li><strong>Interest:</strong> Data Science, Data Analyst</li>
-                    <li><strong>Hobby:</strong> Traveling</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="projects">
-            <div class="card">
-                <h2 style="text-align:center; font-size:2rem; margin-bottom:2rem;">My Projects</h2>
-                <div class="projects-grid" style="display:flex; gap:2rem; justify-content:center; flex-wrap:wrap;">
-                    <!-- Project 1 -->
-                    <div class="project-card" style="background:#fff; border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.06); width:320px; padding:1.5rem;">
-                        <img src="images/spakborhills.png" alt="Spakbor Hills" style="width:100%; border-radius:12px 12px 0 0; object-fit:cover; height:auto;">
-                        <h3 style="margin-top:1rem; margin-bottom:0.5rem;">Spakbor Hills</h3>
-                        <p style="margin-bottom:1rem;">A Java-based RPG game created for the Object-Oriented Programming course project.</p>
-                        <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-                            <span class="badge" style="background:#b3e5fc; color:#0277bd; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">Java</span>
-                            <span class="badge" style="background:#ffe082; color:#ff6f00; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">JavaFX</span>
-                            <span class="badge" style="background:#c8e6c9; color:#388e3c; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">MySQL</span>
-                        </div>
-                    </div>
-                    <!-- Project 2 -->
-                    <div class="project-card" style="background:#fff; border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.06); width:320px; padding:1.5rem;">
-                        <img src="images/amanlansia.png" alt="Aman Lansia" style="width:100%; border-radius:12px 12px 0 0; object-fit:cover; height:auto;">
-                        <h3 style="margin-top:1rem; margin-bottom:0.5rem;">AmanLansia</h3>
-                        <p style="margin-bottom:1rem;">A wearable IoT smart band to monitor elderly in case they need help or in an emergency situation.</p>
-                        <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-                            <span class="badge" style="background:#b2dfdb; color:#00695c; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">C++</span>
-                            <span class="badge" style="background:#b3e5fc; color:#0277bd; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">HTML</span>
-                            <span class="badge" style="background:#f8bbd0; color:#ad1457; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">CSS</span>
-                            <span class="badge" style="background:#c8e6c9; color:#388e3c; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">SQL</span>
-                        </div>
-                    </div>
-                    <!-- Project 3 -->
-                    <div class="project-card" style="background:#fff; border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.06); width:320px; padding:1.5rem;">
-                        <img src="images/moosic.png" alt="Moosic" style="width:100%; border-radius:12px 12px 0 0; object-fit:cover; height:auto;">
-                        <h3 style="margin-top:1rem; margin-bottom:0.5rem;">Moosic</h3>
-                        <p style="margin-bottom:1rem;">An online music store management system app to search for Album, Cassette, or Vinyl of Various Artists from around the world.</p>
-                        <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-                            <span class="badge" style="background:#b3e5fc; color:#0277bd; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">HTML</span>
-                            <span class="badge" style="background:#f8bbd0; color:#ad1457; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">CSS</span>
-                            <span class="badge" style="background:#c8e6c9; color:#388e3c; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">SQL</span>
-                        </div>
-                    </div>
-                    <!-- Project 4 -->
-                    <div class="project-card" style="background:#fff; border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.06); width:320px; padding:1.5rem;">
-                        <img src="images/gawein.png" alt="GaweIn" style="width:100%; border-radius:12px 12px 0 0; object-fit:cover; height:auto;">
-                        <h3 style="margin-top:1rem; margin-bottom:0.5rem;">GaweIn</h3>
-                        <p style="margin-bottom:1rem;">An online platform to help informal workers to find their customers also customers find their informal workers.</p>
-                        <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-                            <span class="badge" style="background:#b3e5fc; color:#374349; padding:0.3em 0.8em; border-radius:12px; font-size:0.9em;">Figma</span>
-                        </div>
-                    </div>
+            <div class="hero-visual" aria-label="Portrait and portfolio focus">
+                <img src="images/profil.JPG" alt="Portrait of Muhammad Refino Ramadhan">
+                <div class="focus-panel">
+                    <span>Current Focus</span>
+                    <strong>Product-minded developer for data and human-centered systems.</strong>
                 </div>
             </div>
         </section>
 
-        <section id="contact">
-            <div class="card">
-                <h2>Contact</h2>
-                <form action="#">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+        <section class="intro-band" id="about">
+            <div class="intro-copy">
+                <p class="eyebrow">About</p>
+                <h2>Curious about how technology becomes useful in real life.</h2>
+            </div>
+            <div class="intro-text">
+                <p>
+                    I am an Information Systems and Technology student at Bandung Institute of Technology.
+                    My work usually starts with a practical question: what problem is worth solving, and how
+                    can technology make the answer clearer?
+                </p>
+            </div>
+        </section>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+        <section class="stats-strip" aria-label="Portfolio summary">
+            <div>
+                <strong>10</strong>
+                <span>Portfolio Projects</span>
+            </div>
+            <div>
+                <strong>6</strong>
+                <span>Fields Explored</span>
+            </div>
+            <div>
+                <strong>ITB</strong>
+                <span>Information Systems and Technology</span>
+            </div>
+        </section>
 
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+        <section class="projects-section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">All Projects</p>
+                <h2>Project archive.</h2>
+            </div>
 
-                    <button type="submit" class="btn">Send</button>
-                </form>
+            <div class="folder-grid" id="projectCards" aria-label="Project list"></div>
+        </section>
+
+        <section class="story-section" id="story">
+            <div class="story-copy">
+                <p class="eyebrow">Learning Direction</p>
+                <h2>I want to grow as a multidisciplinary developer.</h2>
+                <p>
+                    Across these projects, I learned that good products need more than implementation.
+                    They need context, design judgment, teamwork, and a clear reason to exist.
+                </p>
+            </div>
+            <div class="toolbox">
+                <h3>Tools and Skills</h3>
+                <div class="tool-list">
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>SQL</span>
+                    <span>HTML/CSS</span>
+                    <span>React</span>
+                    <span>Figma</span>
+                    <span>Git</span>
+                    <span>Data Analysis</span>
+                    <span>Product Thinking</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div>
+                <p class="eyebrow">Contact</p>
+                <h2>Let us build something thoughtful.</h2>
+                <p>
+                    I am open to collaboration, product discussions, and opportunities to keep learning
+                    through real projects.
+                </p>
+            </div>
+            <div class="contact-links" aria-label="Contact links">
+                <a href="mailto:refinormdn@gmail.com">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    Email
+                </a>
+                <a href="https://linkedin.com/in/refinormdn" target="_blank" rel="noreferrer">
+                    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/refinormdhn" target="_blank" rel="noreferrer">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    GitHub
+                </a>
+                <a href="https://wa.me/6287730102005" target="_blank" rel="noreferrer">
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    WhatsApp
+                </a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 - Made by Muhammad Refino Ramadhan</p>
+        <p>&copy; 2026 Muhammad Refino Ramadhan. Full project archive.</p>
     </footer>
 
-    <script>
-        if (window.location.hash && window.location.hash !== "#home") {
-            window.location.hash = "#home";
-        }
-    </script>
+    <script src="projects.js"></script>
 </body>
 </html>
